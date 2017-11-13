@@ -25,5 +25,5 @@ function appendDriver(name) {
 }
 
 function prependDriver(name) {
-  return [name, ...divers];
+  return [name, ...drivers];
 }
