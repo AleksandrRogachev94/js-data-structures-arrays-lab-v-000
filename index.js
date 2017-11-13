@@ -23,3 +23,7 @@ function appendDriver(name) {
   newDrivers.push(name);
   return newDrivers;
 }
+
+function prependDriver(name) {
+  return [name, ...divers];
+}
